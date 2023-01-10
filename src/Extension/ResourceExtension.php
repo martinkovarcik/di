@@ -108,7 +108,7 @@ class ResourceExtension extends CompilerExtension
 				}
 
 				if ($decorator->inject !== null) {
-					$def->addTag(InjectExtension::TAG_INJECT, $decorator->inject);
+					$def->addTag(InjectExtension::TagInject, $decorator->inject);
 				}
 			}
 		}
